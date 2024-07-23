@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Shop name styling */
+.shop-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    background-color: #92817a;
+    width: 100%;
+    font-size: 20px;
+}
+
+.shop-name h1 {
+    margin: 0;
+    font-size: 20px; /* Adjust as needed */
+    color: #fff;
+}
+
+/* Header and navigation styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and menu */
+    align-items: center;
+    width: 100%; /* Full width to push menu to the right */
+    padding: 0.5rem 1rem; /* Adjust as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-height: 40px; /* Reduced size */
+    border-radius: 10%;
+    margin-right: 10px; /* Space between logo and shop name */
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right */
+}
+
+.nav-menu li {
+    margin-left: 15px; /* Reduced margin */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem; /* Reduced padding */
+    font-size: 20px; /* Adjust font size as needed */
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ddd; /* Change color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Menu Section Styles */
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    border-bottom: 2px solid #f4a261;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Menu Item Styles */
+.menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.02);
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #f4a261;
+    font-size: 1.2em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+
+    .logo img {
+        max-height: 30px; /* Smaller logo on mobile */
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .menu-item {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-menu a {
+        font-size: 18px; /* Smaller font size for very small screens */
+    }
+}

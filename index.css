@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Shop name styling */
+.shop-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    background-color: #92817a;
+    width: 100%;
+    font-size: 20px';
+    
+}
+
+.shop-name h1 {
+    margin: 0;
+    font-size: 20px; /* Adjust as needed */
+    color: #fff;
+}
+
+/* Header and navigation styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and menu */
+    align-items: center;
+    width: 100%; /* Full width to push menu to the right */
+    padding: 0.5rem 1rem; /* Adjust as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-height: 40px; /* Reduced size */
+    border-radius: 10%;
+    margin-right: 10px; /* Space between logo and shop name */
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right */
+}
+
+.nav-menu li {
+    margin-left: 15px; /* Reduced margin */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem; /* Reduced padding */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+.nav-menu a:hover {
+    color: #ddd; /* Change color on hover */
+}
+
+/* Banner styling */
+.banner {
+    background-image: url('1.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+/* Content section styling */
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

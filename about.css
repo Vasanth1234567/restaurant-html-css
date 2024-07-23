@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Shop name styling */
+.shop-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    background-color: #92817a;
+    width: 100%;
+    font-size: 20px';
+    
+}
+
+.shop-name h1 {
+    margin: 0;
+    font-size: 20px; /* Adjust as needed */
+    color: #fff;
+}
+
+/* Header and navigation styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and menu */
+    align-items: center;
+    width: 100%; /* Full width to push menu to the right */
+    padding: 0.5rem 1rem; /* Adjust as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-height: 40px; /* Reduced size */
+    border-radius: 10%;
+    margin-right: 10px; /* Space between logo and shop name */
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right */
+}
+
+.nav-menu li {
+    margin-left: 15px; /* Reduced margin */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem; /* Reduced padding */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+.nav-menu a:hover {
+    color: #ddd; /* Change color on hover */
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Subtle background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+    text-align: center;
+    background-color: #f8b400;
+    color: white;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.banner p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: #e09e00;
+}
+
+.about-section {
+    margin-top: 40px;
+    background-color: #f0f0f0; /* Add background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-section h1, .about-section h2 {
+    color: #f8b400;
+}
+
+.about-section p, .about-section ul {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.about-section ul {
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-image: url('footer-bg.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e09e00;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e09e00;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-menu li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-menu a {
+        font-size: 18px;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .banner p {
+        font-size: 14px;
+    }
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
